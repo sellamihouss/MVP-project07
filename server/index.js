@@ -25,28 +25,28 @@ app.get('/api/workouts',(req,res)=>{
 app.post('/api/workouts',(req,res)=>{
     console.log(req.body)
     add(req.body,(err,result)=>{
-      if(err){res.send(err)}
-      else{res.json(result)}
-    })})  
-app.delete('/api/workouts/:id',(req,res)=>{
-      console.log(req.body)
-      remove(req.params.id,(err,result)=>{
-        if(err){res.send(err)}
-        else{res.json(result)}
-      })})
-app.put('/api/workouts/:id',(req,res)=>{
-        console.log(req.body)
-        update(req.params.id,req.body,(err,result)=>{
-          if(err){res.send(err)}
-          else{res.json(result)}
-        })}) 
-app.put("/api/workouts/:id",(req,res)=>{
-  console.log(req.body)
-  updateOne(req.params.id,req.body,(err,result)=>{
     if(err){res.send(err)}
     else{res.json(result)}
-  })})            
+    })})  
+app.delete('/api/workouts/:id',(req,res)=>{
+    console.log(req.body)
+    remove(req.params.id,(err,result)=>{
+    if(err){res.send(err)}
+    else{res.json(result)}
+    })})
+app.put('/api/workouts/:id',(req,res)=>{
+    console.log(req.body)
+    update(req.params.id,req.body,(err,result)=>{
+    if(err){res.send(err)}
+    else{res.json(result)}
+    })}) 
+app.put("/api/workouts/:id",(req,res)=>{
+    console.log(req.body)
+    updateOne(req.params.id,req.body,(err,result)=>{
+    if(err){res.send(err)}
+    else{res.json(result)}
+    })})            
 
 app.listen(PORT, function () {
-  console.log("listening on port 3000!");
-});
+    console.log("listening on port 3000!");
+    });

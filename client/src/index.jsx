@@ -125,11 +125,5 @@ const App = () => {
 
 ReactDOM.render(<App />, document.getElementById('app'))
 
-// return (
-//   <div>
-//     <h1>Item List</h1>
-//     <List workouts={workouts} />
-//   </div>
-// )
 
 {/* <div id='imgdiv'> <img id='bodyimage' url='https://media.istockphoto.com/id/831536516/vector/male-body-muscle-black-silhouette.jpg?s=612x612&w=0&k=20&c=Hs5YnHfvU6CCRNTXS3MHxwcFR72riMAjbM04GsPjN1k='/></div> */}

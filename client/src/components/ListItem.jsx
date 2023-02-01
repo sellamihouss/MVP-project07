@@ -23,20 +23,3 @@ const ListItem = (props) => {
 
 export default ListItem;
 
-// const ListItem = (props) => {
-//   const [upd,setupd]=useState(false)
-//   const [desc,setdesc]= useState(false)
-//   console.log(props.id)
-//   return(
-//     <div class="card" style="width: 18rem;">
-//     <img src={ props.item.imageUrl} class="card-img-top" alt="..."></img>
-//     <div class="card-body">
-//       <h5 class="card-title" onClick={()=>{setdesc(!desc)}}> { props.item.name}</h5>
-//       <p class="card-text">{desc&&props.item.description}</p>
-//       <a href="#" class="btn btn-primary">Go somewhere</a>
-//       <button class="btn btn-primary">Add to daily workouts</button>
-//   <button class="btn btn-primary" onClick={()=>{setupd(!upd)}}>Update</button>
-//   <button class="btn btn-primary" onClick={()=>{props.ondelete(props.id)}}>Delete</button>
-//     </div>
-//   </div>
-// )}
