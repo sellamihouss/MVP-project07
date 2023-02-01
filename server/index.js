@@ -4,7 +4,7 @@ const itemRoutes = require('./routes/item.routes')
 // UNCOMMENT THE DATABASE YOU'D LIKE TO USE
 // const db = require('./database-mysql');
 const db = require('./database-mongo');
-const { findAll,add,remove,update } = require("./database-mongo/workout.model");
+const { findAll,add,remove,update,updateOne } = require("./database-mongo/workout.model");
 
 const app = express();
 const PORT = process.env.PORT || 3000
@@ -39,7 +39,13 @@ app.put('/api/workouts/:id',(req,res)=>{
         update(req.params.id,req.body,(err,result)=>{
           if(err){res.send(err)}
           else{res.json(result)}
-        })})     
+        })}) 
+app.put("/api/workouts/:id",(req,res)=>{
+  console.log(req.body)
+  updateOne(req.params.id,req.body,(err,result)=>{
+    if(err){res.send(err)}
+    else{res.json(result)}
+  })})            
 
 app.listen(PORT, function () {
   console.log("listening on port 3000!");

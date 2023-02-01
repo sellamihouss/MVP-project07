@@ -1,0 +1,189 @@
+body{
+    background-image: url("https://images.pexels.com/photos/669577/pexels-photo-669577.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-repeat:repeat;
+    background-size: 100%
+   ;padding-top: 1%;
+   padding-left: 5%;
+
+}
+
+img{
+    height: 50%;
+    width: 50%;
+}
+
+.nav{
+    height: 100%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    
+
+}
+.main{
+    background: transparent;
+position: relative;
+    /* background-color: rgb(248, 238, 238); */
+    height: auto;
+    width: 90%;
+    margin-top: -13%;
+
+
+
+}
+
+.my{
+    background: transparent;
+/* background-color: rgb(247, 240, 240); */
+/* width: 5%; */
+height: 700px;
+/* background-color: yellow; */
+max-width: 40rem;
+margin-top: -10%;
+
+
+}
+
+#all{
+    margin-left: 5%;
+}
+#abs{
+    margin-left: 5%;
+}
+#arm{
+    margin-left: 5%;
+}
+#chest{
+    margin-left: 5%;
+}
+#leg{
+    margin-left: 5%;
+}
+#daily{
+    /* position: fixed; */
+size: 80px;
+background-color: black;
+opacity: 0.8;
+padding:20px;
+width: auto;
+
+}
+
+/* #b1{
+    background-color: red;
+    top: 20px;
+    left: 10px;
+    size: 1cm;
+    height: 50px;
+    width: 50px;
+} */
+
+#imgdiv{
+    max-width: 20rem;
+  
+}
+.grid{
+
+    display: grid;
+  gap: 20px 30px;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196F3; */
+  padding: 100px;
+  background: transparent;}
+
+#div{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+max-width: 40rem;
+padding:20px;
+}
+#delete{
+    background-color: transparent;
+    border: transparent;
+    color: rgb(251, 191, 191);
+   /* background-color: black; */
+   font-size: 300%
+}
+.name{
+    font-size: 30px;
+    color: aliceblue;
+}
+#description{
+    font-size: 20px;
+    color: aliceblue;
+}
+#del{background-color: transparent;
+    border: transparent;
+    color: rgb(225, 3, 3);
+   /* background-color: black; */
+   font-size: 100%;
+   border:2px solid rgb(255, 255, 255);
+   border-radius: 10px;
+   margin-left: 20%;
+}
+#home{
+    background-color: black;
+position: relative;
+    /* background-color: rgb(248, 238, 238); */
+    height: auto;
+    width: 60%;  
+}
+/* #create{
+    color: white;
+    background-color: black;
+} */
+/* .container-fluid{
+    color:red;
+    background-color: black;
+} */
+.nav-link {
+    color: black;
+}
+.input-group-text{
+    color: black;
+    background-color: black;
+
+}
+.form-control{
+    color: black;}
+
+#title{
+    /* size: 100%; */
+    margin-left:15%;
+    width:75rem;
+    height: 10rem
+
+
+;
+
+}
+/* https://media.istockphoto.com/id/1162560773/photo/close-up-studio-shot-of-a-gym-accessories-on-a-yellow-background-top-view-flat-lay.jpg?s=612x612&w=0&k=20&c=OQlGq8X8xPARtmlpZzpiK3ajn6hWZVq--QD8CR8oOME= */
+
+.navbar-nav{
+    width: 100%;
+    margin-left: 50px;
+}
+.nav-item{
+    margin-right: 5%;
+    margin-left:5%;
+}
+#inputGroup-sizing-sm{
+    background-color: black;
+color: aliceblue;
+opacity: 0.7;
+}
+.create{
+    background-color: black;
+    color: aliceblue;
+    opacity: 0.7;
+}
+.input-group{
+  margin-top: 1%;
+    margin-left: 4%;
+    opacity: 0.8;
+}
+/* .input-group{
+   margin-left: %;
+} */
+
+
+/* https://media.istockphoto.com/id/1429698138/photo/power-loads-in-the-gym-kettlebell-dumbbell-and-pancakes-for-the-barbell-on-a-yellow.jpg?s=612x612&w=0&k=20&c=JBIRr0Fpc4FYdoSNlAt0pS5OPpAg7Zzf6CIsbHpEtUk= */
