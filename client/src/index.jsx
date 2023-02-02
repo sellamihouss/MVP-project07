@@ -73,10 +73,11 @@ const App = () => {
 
   return (
     <div>
-    <img id='title' src='https://img.mensxp.com/media/content/2014/Nov/25fitnessquoteseverymanmustliveby6_1416381232.jpg' />
+    <img id='title' src='https://marketplace.canva.com/EAE7rpHi2uc/1/0/1600w/canva-grey-simple-photo-quote-workout-gym-zoom-virtual-background-sgLnnLb1ecc.jpg' />
+    {/* <img id='title' src='https://img.mensxp.com/media/content/2014/Nov/25fitnessquoteseverymanmustliveby6_1416381232.jpg' /> */}
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#" style={{"color":"black"}}>Home Workouts</a>
+    <a className="navbar-brand" href="#" style={{"color":"black","fontSize":"xxx-large","font":"bold"}}>HOME GYM</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

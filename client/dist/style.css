@@ -3,7 +3,7 @@ body{
     background-repeat:repeat;
     background-size: 100%
    ;padding-top: 1%;
-   padding-left: 5%;
+   padding-left: 10%;
 
 }
 
@@ -65,17 +65,7 @@ background-color: black;
 opacity: 0.8;
 padding:20px;
 width: auto;
-
 }
-
-/* #b1{
-    background-color: red;
-    top: 20px;
-    left: 10px;
-    size: 1cm;
-    height: 50px;
-    width: 50px;
-} */
 
 #imgdiv{
     max-width: 20rem;
@@ -127,14 +117,7 @@ position: relative;
     height: auto;
     width: 60%;  
 }
-/* #create{
-    color: white;
-    background-color: black;
-} */
-/* .container-fluid{
-    color:red;
-    background-color: black;
-} */
+
 .nav-link {
     color: black;
 }
@@ -148,14 +131,13 @@ position: relative;
 
 #title{
     /* size: 100%; */
-    margin-left:15%;
-    width:75rem;
-    height: 10rem
-
-
-;
-
+    margin-left:30%;
+    width:40rem;
+    height: 15rem;
+    /* border-radius: 10% */;
+    
 }
+
 /* https://media.istockphoto.com/id/1162560773/photo/close-up-studio-shot-of-a-gym-accessories-on-a-yellow-background-top-view-flat-lay.jpg?s=612x612&w=0&k=20&c=OQlGq8X8xPARtmlpZzpiK3ajn6hWZVq--QD8CR8oOME= */
 
 .navbar-nav{
@@ -181,9 +163,18 @@ opacity: 0.7;
     margin-left: 4%;
     opacity: 0.8;
 }
-/* .input-group{
-   margin-left: %;
-} */
+.nav-link{
+    font-size:x-large;
+    font:bold;
+} 
+.navbar-brand{
+    font-size:x-large;
+    font:bold;
+} 
 
-
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
 /* https://media.istockphoto.com/id/1429698138/photo/power-loads-in-the-gym-kettlebell-dumbbell-and-pancakes-for-the-barbell-on-a-yellow.jpg?s=612x612&w=0&k=20&c=JBIRr0Fpc4FYdoSNlAt0pS5OPpAg7Zzf6CIsbHpEtUk= */

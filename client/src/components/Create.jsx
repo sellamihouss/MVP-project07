@@ -44,7 +44,7 @@ const Create = (props) => {
     <input type="text" className="create" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" onChange={changedesc}/>
     <span className="input-group-text" id="inputGroup-sizing-sm">Number of sets</span>
     <input type="text" className="create" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" onChange={changesets}/>
-    <button type="button" class="btn btn-success" onClick={handleclick}>create</button>
+    <button type="button" class="btn btn-dark" onClick={handleclick}>create</button>
   </div>
   )
 }
